@@ -237,6 +237,11 @@ h1 {
   margin-bottom: 10rem;
 }
 
+button:hover {
+  background-color: #232323;
+  color: white;
+}
+
 .image {
   display: -ms-grid;
   display: grid;
