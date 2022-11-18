@@ -18,6 +18,8 @@
 }
 
 h1 {
+  margin-top: 15rem;
+  margin-bottom: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,6 +72,12 @@ h1 {
   color: #FFFFFF;
 }
 
+.fa-chevron-down {
+  color: #FFFFFF;
+  margin-bottom: 5rem;
+  margin-left: 2.5rem;
+}
+
 .btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,6 +89,7 @@ h1 {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: #FFFFFF;
+  background-color: #5474FD;
 }
 
 .nav {
@@ -138,3 +147,5 @@ h1 {
 .page1_2 {
   color: #FFFFFF;
 }
+
+/* page2 */
