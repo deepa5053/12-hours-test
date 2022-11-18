@@ -1027,4 +1027,10 @@ h1 {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+
+  .btn_1, .btn_3 {
+    height: 10px;
+    width: 100px;
+    font-size: 5px;
+  }
 }
