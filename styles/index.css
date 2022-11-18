@@ -897,6 +897,7 @@ h1 {
 
 .page5 {
   background-image: url(..//images/backgroundimg5.png);
+  background-size: contain;
   height: 70vh;
   width: 100%;
 }
@@ -914,8 +915,61 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
+.info3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 330px;
+}
+
+.page5_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 150px;
+  height: 26px;
+  margin-left: 62px;
+  margin-top: 49px;
+}
+
+.page5_2 {
+  color: #FFFFFF;
+  max-width: 580px;
+  width: 100%;
+  margin-left: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fa-quote-left {
+  height: 150px;
+  width: 100px;
+  color: #5474FD;
+}
+
+/* MEDIA QUERIES*/
 @media screen and (max-width: 1000px) {
   .input {
     display: -webkit-box;
@@ -959,5 +1013,18 @@ h1 {
     height: 20px;
     width: 120px;
     font-size: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .info3 {
+    width: 100px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
